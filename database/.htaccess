@@ -1,0 +1,6 @@
+# Block direct web access to migration / SQL files (allow migrate.php intentionally for setup — remove after install)
+<FilesMatch "\.(sql)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</FilesMatch>

@@ -1,0 +1,27 @@
+# Dependencies / env
+config/config.php
+.env
+.env.*
+
+# Uploads (keep folders, ignore files)
+assets/uploads/avatars/*
+assets/uploads/projects/*
+assets/uploads/certificates/*
+assets/uploads/resumes/*
+!assets/uploads/**/.gitkeep
+uploads/*
+
+# Legacy backup tables dump / local
+*.sql.gz
+database/*.local.sql
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Composer (if added later)
+/vendor/

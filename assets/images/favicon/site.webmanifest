@@ -1,0 +1,20 @@
+{
+  "name": "Mark Lenard Bersonda Portfolio",
+  "short_name": "MLB Portfolio",
+  "description": "IT graduate portfolio — projects, skills, and experience in web development.",
+  "display": "browser",
+  "background_color": "#f4f4f5",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
