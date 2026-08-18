@@ -3,6 +3,9 @@ config/config.php
 .env
 .env.*
 
+# Accidental nested folder (case-sensitive)
+Portfolio/
+
 # Uploads (keep folders, ignore files)
 assets/uploads/avatars/*
 assets/uploads/projects/*
